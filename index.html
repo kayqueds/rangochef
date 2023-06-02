@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="pt-br">
+  <link rel="stylesheet" href="index.css">
+  <link rel="shortcut icon" href="img/logo.PNG" type="image/x-icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-5iDp9fL/v9ha1uJiPF4vNgJ/1EjZb1NDdpeKRtcWzXuIjqjM/4DXnmXX/0QxvYnByL3Rq26ZsBlKdMDeokRkkg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <head>
+    
+      
+  <header> 
+
+    
+  
+    <h1 id="rango"><a id="rango" href="./index.html" style="color: black;" >RANGO'S CHEF  </a></h1>
+  <div class="flex-container">
+    <a id="txtBoton" href="./login/login.html">Login</a>
+    <a id="txtBoto" href="./login/perfil.html">Perfil</a>
+  </div>
+  <a><button class="btn btn-primary btn-profile" style="display: none;">Perfil</button></a>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <title>Rango's Chef</title>
+</header>
+  </head> 
+  <body>
+
+    <div class="search-wrapper">
+      <div class="input-holder">
+          <input type="text" class="search-input" placeholder="Pesquise uma receita" />
+          <button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
+      </div>
+      <span class="close" onclick="searchToggle(this, event);"></span>
+  </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(150, 9, 9)">
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./bebidas/bebidas.html">Bebidas <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: rgb(255, 255, 255);">
+                Tortas
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="./comidinha/tortas/torta.html">Doce</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="./comidinha/tortas/tortasalgada.html">Salgada</a>
+                
+               
+              </div>
+              
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="./comidinha/bolos/bolo.html"></a>
+                  <div class="dropdown-divider"></div>
+            </li>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="./comidinha/doces/doce.html">Doces <span class="sr-only">(current)</span></a>
+                </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: rgb(255, 255, 255);">
+                Bolos
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="./comidinha/bolos/seco.html">Seco</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="./comidinha/bolos/molhado.html">Com cobertura</a>
+                
+               
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: rgb(255, 255, 255);" >Comemorativas</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="./comidinha/Comemorativas/natal.html">Natal</a></a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="./comidinha/Comemorativas/festaJu.html">Festa Junina</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="/comidinha/bolos/bolo.html"></a>
+                  <div class="dropdown-divider"></div>
+                  
+                  
+                
+               
+            </li>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="./comidinha/refeicoes/refe.html">Refeições <span class="sr-only">(current)</span></a>
+                </li>
+            
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: rgb(255, 255, 255);">
+                          Carnes
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="./comidinha/Carnes/bovina/boi.html">Bovinas</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="./comidinha/Carnes/porco/porco.html">Porco</a>
+                          
+                         
+                      </li>
+
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                          <li class="nav-item active">
+                            <a class="nav-link" href="./comidinha/aves/ave.html">Aves <span class="sr-only">(current)</span></a>
+                          </li>
+                      
+
+                      <li class="nav-item active">
+                        <a class="nav-link" href="./comidinha/peixes/peixe.html">Peixes e Frutos do Mar <span class="sr-only">(current)</span></a>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: rgb(255, 255, 255);">
+                          Comidas Estrangeiras
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="./estrangeiras/arabe/arabe.html">Árabe</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="./estrangeiras/japa/japa.html">Japonesa</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="./estrangeiras/mexicana/mexicana.htm">Mexicana</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="./estrangeiras/francesa/franca.html">Francesa</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="./estrangeiras/italiana/italia.html">Italiana</a>
+                          
+                          
+                          
+                      </li>
+          </ul>
+        </div>
+        </div>
+      </nav>
+      
+      <div class="cover">
+      
+
+      
+                        <h2 id="textinho2">Receitas enviadas recentemente</h2>
+     
+
+      
+      <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="4000">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"  ></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+        </ol>
+      
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2 class="lala" style="color: beige;" >Canjica</h2>
+            <br>
+            <a href="comidinha/Comemorativas/canjica.html"><img id="imgcar" src="comidinha/Comemorativas/imgcome/canjica.jpeg"  alt="Imagem 0" ></a>
+            
+          </div>
+      
+          <div class="carousel-item">
+             <h2 class="lala" style="color: beige;" >Beijinho</h2>
+             <br>
+             <a href="comidinha/doces/lilkis.html"><img id="imgcar"  src="comidinha/doces/imagens/lilkiss.png"  alt="Imagem 1"   ></a>
+          </div> 
+      
+          <div class="carousel-item">
+            <h2 class="lala" style="color: beige;" >Quentão</h2>
+            <br>
+            <a href="bebidas/quentao.html"><img id="imgcar"  src="img/quentao.jpg" alt="Imagem 1" ></a>
+          </div>
+          <div class="carousel-item">
+            <h2 class="lala" style="color: beige;" >Torta de Chocolate</h2>
+            <br>
+            <a href="comidinha/tortas/chocolate.html"><img id="imgcar"  src="comidinha/tortas/imagens/chocolate.jpg" alt="Imagem 1" ></a>
+          </div>
+          <div class="carousel-item">
+            <h2 class="lala" style="color: beige;" >Bolo de Milho</h2>
+            <br>
+            <a href="comidinha/bolos/milho.html"><img id="imgcar"  src="comidinha/bolos/imagens/milho.webp" alt="Imagem 1" ></a>
+          </div>
+
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+
+      </div>
+
+      <div class="main-container">
+        <div class="cards">
+          <a class="flex-item" href="comidinha/tortas/maracuja.html"><img src="comidinha/tortas/imagens/maracuja.webp"></a>
+          <h4 id="titulo" >Torta de Maracúja</h4>
+          <p id="resumo1">Por: Rango's Chef</p>
+          
+        </div>
+        <div class="cards">
+          <a class="flex-item" href="comidinha/Comemorativas/chester.html"><img src="comidinha/Comemorativas/imgcome/chester.jpg"></a>
+          <h4 id="titulo" >Chester</h4>
+          <p id="resumo1">Por: Rango's Chef</p>
+          
+        </div>
+        <div class="cards">
+          <a class="flex-item" href="bebidas/batifru.html"><img src="./img/drinkao.jpg"></a>
+          <h4 id="titulo" >Batida de Frutas</h4>
+          <p id="resumo1">Por: Rango's Chef</p>
+          
+        </div>
+      
+        <div class="cards">
+          <a class="flex-item" href="comidinha/Comemorativas/brusqueta.html"><img src="./comidinha/Comemorativas/imgcome/brusqueta.jpg"></a>
+          <h4 id="titulo" >Brusqueta</h4>
+          <p id="resumo1">Por: Rango's Chef</p>
+          
+        </div>
+        <div class="cards">
+          <a class="flex-item" href="comidinha/doces/merengue.html"><img src="./comidinha/doces/imagens/merengue.jpg"></a>
+          <h4 id="titulo" >Merengue</h4>
+          <p id="resumo1">Por: Rango's Chef</p>
+          
+        </div>
+        <div class="cards">
+          <a class="flex-item" href="comidinha/bolos/milho.html"><img src="./comidinha/bolos/imagens/milho.webp"></a>
+          <h4 id="titulo" >Bolo de Milho</h4>
+          <p id="resumo1">Por: Rango's Chef</p>
+          
+        </div>
+  
+        <div class="cards">
+          <a class="flex-item" href="vitafrutas.html"><img src="./img/vitafrutas.jpg"></a>
+          <h4 id="titulo" >Vitamina</h4>
+          <p id="resumo1">Por: Rango's Chef</p>
+          
+        </div>
+        <div class="cards">
+          <a class="flex-item" href="batifru.html"><img src="./img/drinkao.jpg"></a>
+          <h4 id="titulo" >Batida de Frutas</h4>
+          <p id="resumo1">Por: Rango's Chef</p>
+          
+        </div>
+        <div class="cards">
+          <a class="flex-item" href="comidinha/tortas/frango.html"><img src="./comidinha/tortas/imagens/frango.jpg"></a>
+          <h4 id="titulo" >Torta de Frango</h4>
+          <p id="resumo1">Por: Rango's Chef</p>
+          
+        </div>
+        
+      </div>  
+
+      <style>
+        .user-button {
+          display: flex;
+          align-items: center;
+          padding: 8px;
+          background-color: #f1f1f1;
+          border-radius: 20px;
+          font-family: Arial, sans-serif;
+          font-size: 16px;
+          color: #333;
+          cursor: pointer;
+        }
+        
+        .user-button .icon {
+          display: inline-block;
+          width: 24px;
+          height: 24px;
+          background-color: #999;
+          border-radius: 50%;
+          margin-right: 8px;
+        }
+      </style>
+    </head>
+  
+
+    <footer>
+      <ul class="wrapper">
+        <li class="icon facebook">
+          <span class="tooltip">Facebook</span>
+          <span><i class="fab fa-facebook-f"></i></span>
+        </li>
+        <li class="icon twitter">
+          <span class="tooltip">Twitter</span>
+          <span><i class="fab fa-twitter"></i></span>
+        </li>
+        <li class="icon instagram">
+          <a href="https://instagram.com/rangos.chef?igshid=MzRlODBiNWFlZA==" target="_blank">
+            <span class="tooltip">Instagram</span>
+            <span style="color: rgb(209, 38, 109);" ><i class="fab fa-instagram"></i></span>
+          </a>
+        </li>
+        <li class="icon github">
+          <span class="tooltip">Github</span>
+          <span><i class="fab fa-github"></i></span>
+        </li>
+        <a href="https://www.youtube.com/@kayqueman/featured" target="_blank">
+          <li class="icon youtube">
+            <span class="tooltip">Youtube</span>
+            <span style="color: rgb(255, 0, 0);" ><i class="fab fa-youtube"></i></span>
+          </li>
+        </a>
+      </ul>
+  
+    </footer>
+
+  
+  
+  
+  
+  
+    <script src="https://kit.fontawesome.com/2b9cdc1c9a.js" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.2.1.slim.min.js" ></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script async src="https://platform-api.sharethis.com/js/sharethis.js#property=YOUR_SHARETHIS_PROPERTY_ID&product=social-media-buttons"></script>
+    <script async src="https://platform-api.sharethis.com/js/sharethis.js#property=YOUR_SHARETHIS_PROPERTY_ID&product=social-media-buttons"></script>
+
+    
+
+    <script>
+
+function toggleFavorite(button) {
+  button.classList.toggle("clicked");
+}
+
+    </script>
+
+    <script>
+
+function searchToggle(obj, evt){
+    var container = $(obj).closest('.search-wrapper');
+        if(!container.hasClass('active')){
+            container.addClass('active');
+            evt.preventDefault();
+        }
+        else if(container.hasClass('active') && $(obj).closest('.input-holder').length == 0){
+            container.removeClass('active');
+            // clear input
+            container.find('.search-input').val('');
+        }
+}
+
+    </script>
+    
+  </body>
+</html>
