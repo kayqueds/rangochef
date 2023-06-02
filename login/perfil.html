@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" href="../img/logo.PNG" type="image/x-icon">
+    <title>Meu perfil</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    
+    <style>
+      
+      .header {
+        background-color: #ff5e00;
+        color: #fff;
+        height: 250px;
+        padding-top: 30px;
+        text-align: center;
+      }
+      .header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0;
+      }
+      .header h2 {
+        font-size: 1.5rem;
+        margin-bottom: 0;
+      }
+      .content {
+        margin-top: -50px;
+        padding: 20px;
+      }
+      body{
+  background-image: linear-gradient(to right, rgb(207, 207, 186), rgba(49, 49, 49, 0.938) );
+   
+   
+}
+      .avatar2 {
+        width: 30%;
+        height: 90%;
+        border-radius: 10px;
+        margin-left:-5%;
+      }
+      #nome {
+        margin-top: -90px;
+        margin-left: -60%;
+        
+      }
+      #imagem1{
+        height: 150px;
+        width: 200px;
+        margin-top: -190px;
+        border-radius: 5%;
+        margin-left: 10%;
+      }
+      #titulo{
+  
+        font-family: 'Kaushan Script';
+        font-weight: bolder;
+        margin-top: -20px;
+        margin-left: 20%;
+        font-size: 30px;    
+        color: rgb(255, 0, 0);
+      }
+      #main1{
+        background-color: white;
+        padding: 70px;
+        border: #000000;
+        width: 250px;
+        height: 250px;
+        display: flexbox;
+        margin-top: 20px;
+        margin-left: 5%;    
+        border-radius: 50px 50px 50px 50px;
+        box-shadow: 5px 5px 5px black;
+        outline: inset 8px rgb(0, 0, 0);
+      }
+
+      #card1 {
+        height: 500px; 
+        width: 400px;
+        margin-top: 100px;
+        margin-left: -100px;
+      }
+      #info {
+        height: 500px; 
+        width: 400px;
+        margin-top: -60px;
+        margin-left: 70%;
+      }
+      .alter {
+        margin-left:-30%;
+        margin-top: -110%;
+      }
+      
+      #perfil {
+        border-radius: 50%;
+        top: 1%;
+        left: 50%;
+        width: 3cm;
+        height: 3cm;
+        border: 5px rgba(0, 0, 0, 0.486) solid;
+      }
+      #img {
+        border-radius: 50%;
+        width: 2cm;
+        height: 2cm;
+      }
+
+
+      
+
+    </style>
+    </style>
+  </head>
+  <body>
+
+    
+    <div class="header">
+      <div class="avatar2" ><img src="https://via.placeholder.com/150x150.png?text=Foto do Usuario" alt="Foto de perfil"></div>
+      <!-- <div class="container my-5">
+        <div class="row">
+          <div class="col-md-3">
+            <form action="#" method="post" enctype="multipart/form-data" class="my-3">
+              <div class="alter">
+                <label for="foto">Alterar foto</label>
+                <input type="file" class="form-control-file" id="foto" name="foto">
+              </div>
+              <button type="submit" class="btn btn-primary">Salvar</button>
+            </form>
+          </div>
+        </div>
+      </div> -->
+      <h2 id="nome" >@Liam</h2>
+      <h1 id="nome" >Liam</h1>
+      <div id="info">
+        <div class="dropdown">
+          <button id="perfil" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span><img id="img" src="../img/perfil.webp" alt="Avatar"></span>
+            
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="perfil.html">Perfil</a>
+            <a class="dropdown-item" href="../index.html">Pagina Inicial</a>
+            <a class="dropdown-item" href="#">Sair</a>
+          </div>
+        </div>
+        <h3>Informações pessoais</h3>
+        <p>Nome completo: <strong>Liam Brian</strong></p>
+        <p>E-mail: <strong>Liam@gmail.com</strong></p>
+        <p>Data de nascimento: <strong>09/03/2003</strong></p>
+      </div>
+      
+    </div>
+    
+        
+        <div class="col-md-6">
+        <h3>Minhas receitas salvas:</h3>
+        <br>
+        
+
+        <main id="main1">
+          <div class="row">
+            <div class="col-6">
+              <div id="card1">
+                <div class="card-body">
+                  <a class="flex-item" href="../bebidas/caipirinha.html"><img id="imagem1" src="../img/caipirinha.webp"></a>
+                  <h5 id="titulo" class="card-title">Caipirinha</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+      <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> -->
